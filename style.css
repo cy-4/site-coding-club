@@ -57,3 +57,8 @@ body{
     background-position: top;
     background-attachment: fixed;
   }
+
+  .sous-menu li a {
+    color: red;
+    text-decoration: none;
+  }
