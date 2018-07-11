@@ -1,0 +1,20 @@
+.sous-menu li a {
+  color: red;
+  text-decoration: none;
+}
+
+.menu {
+margin-top: 4px;
+height: 80px;
+color: red;
+font-size: 40px;
+font-style: italic;
+}
+
+ul ul {
+  display: none;
+}
+
+li:hover ul.sous-menu {
+  display:block;
+}
