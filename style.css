@@ -1,0 +1,58 @@
+
+ul ul {
+  display: none;
+}
+
+li:hover ul.sous-menu {
+  display:block;
+}
+.logo-titre > h1 {
+    color: red;
+    margin-right: -90px;
+    z-index: 1;
+
+
+}
+.logo-titre > img {
+  width:170px;
+  height: 120px;
+
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+}
+.logo-titre
+{
+  display:flex;
+  font-style: oblique;
+}
+
+.menu {
+margin-top: 4px;
+height: 80px;
+color: red;
+font-size: 40px;
+}
+
+.slogan {
+  color: red;
+  font-style: italic;
+  font-size:30px;
+  text-shadow: 3px 3px #403d3d;
+  margin-top: 90px;
+
+}
+
+body{
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4px;
+    height: 80vh;
+    background-image: url("img/baiser.jpg");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+  }
