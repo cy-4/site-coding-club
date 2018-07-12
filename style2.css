@@ -33,3 +33,14 @@ header{
   display: flex;
   flex-direction:center;
 }
+.texte1{
+  font-size: 13px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.texte2{
+  font-size: 13px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
