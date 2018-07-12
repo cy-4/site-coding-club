@@ -7,7 +7,7 @@
 margin-top: 4px;
 height: 80px;
 color: red;
-font-size: 40px;
+font-size: 30px;
 font-style: italic;
 }
 
@@ -21,4 +21,10 @@ li:hover ul.sous-menu {
 
 .description{
   margin-top: 170px;
+}
+
+.titre{
+  margin-left: 440px;
+  color: red;
+  font-size: 30px;
 }
