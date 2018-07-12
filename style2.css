@@ -18,19 +18,6 @@ ul ul {
 li:hover ul.sous-menu {
   display:block;
 }
-<<<<<<< HEAD
 body{
   background-color: pink
-=======
-
-.description{
-  margin-top: 170px;
-}
-
-.titre{
-  margin-left: 440px;
-  color: red;
-  font-size: 30px;
-  margin-top: 20px;
->>>>>>> 06978531fa77208d05df09370ba765ed9bb0dba0
 }
