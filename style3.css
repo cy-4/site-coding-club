@@ -15,7 +15,6 @@
 }
 .title span{
     background:#a9c622;
-    padding:4px 8px;
     background-color: red;
 }
 legend {
@@ -36,4 +35,24 @@ label {
 
 input:invalid:not(:focus) {
     outline: 1px solid #f00;
+}
+.menu {
+margin-top: 4px;
+height: 80px;
+color: red;
+font-size: 40px;
+font-style: italic;
+}
+ul ul {
+  display: none;
+}
+
+li:hover ul.sous-menu {
+  display:block;
+}
+.sous-menu li a {
+  color: red;
+  text-decoration: none;
+  font-size: 30px;
+  
 }
