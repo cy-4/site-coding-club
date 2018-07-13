@@ -44,3 +44,6 @@ header{
   margin-left: 400px;
   margin-top: 50px;
 }
+.description1{
+  display: flex;
+}
