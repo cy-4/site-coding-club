@@ -42,6 +42,7 @@ height: 80px;
 color: red;
 font-size: 40px;
 font-style: italic;
+z-index: 1;
 }
 ul ul {
   display: none;
@@ -53,6 +54,7 @@ li:hover ul.sous-menu {
 .sous-menu li a {
   color: red;
   text-decoration: none;
+  z-index: 1;
 }
 body{
   background-color: pink;
