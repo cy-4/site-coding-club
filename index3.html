@@ -18,22 +18,50 @@
     </ul>
     <h1 class="title"><span>INSCRIPTION</span></h1>
   </header>
-  </fieldset>
-  <form action="index3.html">
-  Nom d'utlisateur:<br>
-  <input type="text" name="Nom d'utilisateur">
-  <br>
-  Nom de famille:<br>
-  <input type="text" name="Nom de famille" >
-  <br>
-  Prenom:<br>
-  <input type="text" name="Prenom" >
-  <br>
-  Mot de passe:<br>
-  <input type="text" name="Mot de passe">
-  <br><br><br>
-  <input type="submit" value="S'inscrire">
-
+  <form name="mon-formulaire1" action="page-envoi.html" method="get">
+<p>
+   <input type="radio" name="civi" value="Mme" /> Madame
+   <input type="radio" name="civi" value="Mlle" /> Monsieur
+   <input type="radio" name="civi" value="Mr" /> Non-binaire
+</p>
+<p>
+   Votre nom d'utilisateur :<br />
+   <input type="text" name="prenom"  />
+</p>
+<p>
+   Votre prénom :<br />
+   <input type="text" name="prenom"  />
+</p>
+<p>
+   Votre nom :<br />
+   <input type="text" name="nom"  />
+</p>
+<p>
+   Votre mot de passe :<br />
+   <input type="password" name="passe" value="" />
+</p>
+<p>
+   Vous recherchez<br />
+   <select name="profil">
+      <option >Un homme</option>
+      <option >Une femme</option>
+      <option > Les deux</option>
+   </select>
+</p>
+<p>
+   Quel type de prestation recherchez vous ?<br />
+   <input type="checkbox" name="interet"  /> Rechercher le grand amour
+   <input type="checkbox" name="interet" /> Rechercher l'amour d'un soir
+</p>
+<p>
+   Décrivez votre singulière personne :<br />
+   <textarea name="le-message" rows="6" cols="40">Vous pouvez saisir ici un message.</textarea>
+</p>
+<input type="checkbox" name="conditions"   /> J'accepte les conditions.<a href="" >       Voir condition </a>
+<p>
+   <input type="submit" value="Envoyer" />
+   <input type="reset" value="Annuler" />
+</p>
 </form>
 
 
