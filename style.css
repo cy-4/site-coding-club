@@ -62,3 +62,7 @@ body{
     color: red;
     text-decoration: none;
   }
+  .responsive {
+      width: 100%;
+      height: auto;
+  }
